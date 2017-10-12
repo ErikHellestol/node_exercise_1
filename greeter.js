@@ -1,0 +1,4 @@
+var randomGreeting = ["Hallo", "Hei", "Hei hei"];
+
+var random = randomGreeting[Math.floor(Math.random() * randomGreeting.length)];
+console.log(random);
